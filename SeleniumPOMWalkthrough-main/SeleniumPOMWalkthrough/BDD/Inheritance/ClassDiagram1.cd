@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SeleniumPOMWalkthrough.BDD.BaseSteps">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAAAAAAEAAAAAAAAAAAAAAABFAAAAAAAAA=</HashCode>
+      <FileName>BDD\Inheritance\Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.BDD.SigninSteps">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABBAgAAAAAAA=</HashCode>
+      <FileName>BDD\Inheritance\DerivedSteps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.BDD.Inheritance.ItemPageSteps">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>BDD\Inheritance\ItemPageSteps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.BDD.Inheritance.UserStorySteps">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIEQAAAEAAAAAAAAAAAAAAAAAAAACAAgAAAEAAA=</HashCode>
+      <FileName>BDD\Inheritance\UserStorySteps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.utils.Credentials">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>utils\Credentials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.utils.PersonalDetails">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>utils\PersonalDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.lib.pages.AP_CheckoutPage">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAEQAAgAAAAAACBAAAIAAAkAAAEAAAgAgAAgAAAAQI=</HashCode>
+      <FileName>lib\pages\AP_CheckoutPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.lib.pages.AP_HomePage">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAQAEAAAAQAgAAAAAAAAAEAAAEEAAkAAAAAAAAAgA=</HashCode>
+      <FileName>lib\pages\AP_HomePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.lib.pages.AP_ItemPage">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAABCAAAAAAAAAAEQAAAEQAEAAgBAAAAAACQ=</HashCode>
+      <FileName>lib\pages\AP_ItemPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.lib.pages.AP_UserPage">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAEAEIHAAAQAIgAAIAkAAAAAAAAAAAEAAE=</HashCode>
+      <FileName>lib\pages\AP_UserPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeleniumPOMWalkthrough.lib.pages.AP_Website&lt;T&gt;">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <AssociationLine Name="AP_CheckoutPage" Type="SeleniumPOMWalkthrough.lib.pages.AP_CheckoutPage" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.125" Y="2.497" />
+        <Point X="13.125" Y="9.384" />
+        <Point X="11.75" Y="9.384" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AP_UserPage" Type="SeleniumPOMWalkthrough.lib.pages.AP_UserPage" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.188" Y="2.497" />
+        <Point X="14.166" Y="2.577" />
+        <Point X="14.166" Y="3.226" />
+        <Point X="15.113" Y="3.226" />
+        <Point X="15.113" Y="9.188" />
+        <Point X="16.25" Y="9.188" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAIAAAAAAAAAAAAAACgAAgAAAAAAAAAI=</HashCode>
+      <FileName>lib\pages\AP_Website.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AP_CheckoutPage" />
+      <Property Name="AP_HomePage" />
+      <Property Name="AP_ItemPage" />
+      <Property Name="AP_UserPage" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
